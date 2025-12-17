@@ -1,1 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Finger+Paint&family=Oooh+Baby&family=Reenie+Beanie&display=swap');
 @import "tailwindcss";
+
+/* Diciamo a Tailwind di scansionare flowbite-svelte per trovare le classi usate */
+@source "../node_modules/flowbite-svelte";
+
+/* Carichiamo il plugin di flowbite (necessario per i colori e utility specifiche) */
+@plugin "flowbite/plugin";
+
+@theme {
+    /* Fonts */
+    --font-fingerpaint: "Finger Paint";
+    --font-oobaby: "Oooh Baby", cursive;
+    --font-reeniebeanie: "Reenie Beanie", cursive;
+
+    /* Colors */
+    --color-primary: #004E98;
+    --color-secondary: #0084D1;
+    --color-accent: #F55A3B;
+    --color-bg-light: #F7EDE2;
+    --color-bg-section: #F2D2A2;
+}
