@@ -1,1 +1,0 @@
-export { default as component } from "../../../../src/routes/Vita_in_Spagna/+page.svelte";
