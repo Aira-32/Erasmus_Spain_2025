@@ -68,12 +68,7 @@
   faToiletPaper,
   } from '@fortawesome/free-solid-svg-icons';
   
-  import Header from '$lib/layout/Header.svelte';
-  import Footer from '$lib/layout/Footer.svelte';
-  
 </script>
-
-<Header />
 
 <main class="font-sans text-primary bg-bg-light overflow-x-hidden">
 
@@ -490,8 +485,7 @@
                 ¡A veces incluso ponen a Pinguini Tattici Nucleari!
               </p>
             </div>
-            
-            <!-- Tarjeta Aula 33 -->
+          
             <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
               <div class="flex items-center gap-3 mb-3">
                 <div class="bg-white/20 p-2 rounded-full">
@@ -511,7 +505,7 @@
 
   <!-- 7. LA TARJETA -->
   <section class="py-24 px-6 md:px-20 bg-bg-light">
-    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <div class="max-w-7xl mx-auto gap-12">
       
       <!-- Texto -->
       <div>
@@ -527,15 +521,15 @@
         </p>
       </div>
 
-      <!-- FOTO TARJETA -->
+      <!-- FOTO TARJETA
       <div class="flex justify-center">
         <div class="w-full max-w-sm aspect-[1.6/1] bg-white rounded-xl shadow-lg border-2 border-primary/20 flex items-center justify-center overflow-hidden">
-            <!-- <img src={tarjetaImg} ... /> -->
+            <img src={tarjetaImg} ... /> 
             <div class="text-center text-gray-400">
               <img src="/WhatsApp Image 2025-12-17 at 08.32.53.jpeg"/>
             </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </section>
@@ -1133,5 +1127,3 @@
   </section>
 
 </main>
-
-<Footer />

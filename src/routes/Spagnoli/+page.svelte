@@ -1,15 +1,10 @@
 <script>
-    import Header from '$lib/layout/Header.svelte';
-    import Footer from '$lib/layout/Footer.svelte';
-
     import { 
         faSchool, faUtensils, faGamepad, faBiking, faHeart,
         faCamera, faQuoteLeft, faCar
     } from '@fortawesome/free-solid-svg-icons';
     import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 </script>
-
-<Header />
 
 <main class="w-full bg-[#f4f1ea] text-slate-900 pb-24 overflow-x-hidden font-sans">
 
@@ -199,5 +194,3 @@
     </section>
 
 </main>
-
-<Footer />

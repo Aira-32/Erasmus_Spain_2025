@@ -1,14 +1,7 @@
 <script>
-    import Footer from "$lib/layout/Footer.svelte";
-    import Header from "$lib/layout/Header.svelte";
-
-
+    // Header e Footer ora sono nel layout principale
 </script>
 
-<Header/>
-
 <main>
-    
+    <!-- Contenuto della galleria andrà qui -->
 </main>
-
-<Footer/>

@@ -1,6 +1,4 @@
 <script>
-	import Header from '$lib/layout/Header.svelte';
-	import Footer from '$lib/layout/Footer.svelte';
 	
 	// Icone
 	import { 
@@ -17,8 +15,6 @@
 	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 	
 </script>
-
-<Header />
 
 <main class="min-h-screen bg-bg-light pb-20 pt-10">
 	
@@ -222,5 +218,3 @@
 
 	</div>
 </main>
-
-<Footer />

@@ -1,6 +1,4 @@
 <script>
-    import Header from '$lib/layout/Header.svelte';
-    import Footer from '$lib/layout/Footer.svelte';
     import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
     import { 
         faBiohazard, 
@@ -11,8 +9,6 @@
         faHouseDamage
     } from '@fortawesome/free-solid-svg-icons';
 </script>
-
-<Header />
 
 <main class="w-full pb-20 font-sans text-slate-800" style="background-color: #F7EDE2;">
 
@@ -132,5 +128,3 @@
     </section>
 
 </main>
-
-<Footer />

@@ -1,6 +1,15 @@
 <script>
+    import '$lib/i18n';
+    import Footer from '$lib/layout/Footer.svelte';
+    import Header from '$lib/layout/Header.svelte';
     import '../app.css';
-    let { children } = $props(); // Sintassi Svelte 5 per i children
-</script>
+    import { t, locale } from 'svelte-i18n';
+  </script>
 
-{@render children()}
+<Header />
+
+<main>
+<slot />
+</main>
+
+<Footer />

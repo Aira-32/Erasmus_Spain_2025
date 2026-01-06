@@ -1,0 +1,45 @@
+{
+    "home": {
+      "hero": {
+        "title": "My Erasmus Experience in Alicante"
+      },
+      "carousel": {
+        "image1": {
+          "alt": "Image 1",
+          "title": "Image 1"
+        },
+        "image2": {
+          "alt": "Image 2",
+          "title": "Image 2"
+        },
+        "image3": {
+          "alt": "Image 3",
+          "title": "Image 3"
+        },
+        "image4": {
+          "alt": "Image 4",
+          "title": "Image 4"
+        },
+        "image5": {
+          "alt": "Image 5",
+          "title": "Image 5"
+        },
+        "image6": {
+          "alt": "Image 6",
+          "title": "Image 6"
+        }
+      },
+      "section1": {
+        "title": "But first... why did I decide to do it?",
+        "subtitle": "TRAVEL FOR FREE",
+        "description": "The rest came by itself"
+      },
+      "pagine": {
+        "escuela": "School",
+        "alicante": "Alicante",
+        "vida": "What's it like to live there?",
+        "espanoles": "What are Spanish people like?",
+        "dificultades": "Difficulties along the way"
+      }
+    }
+  }
