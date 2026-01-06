@@ -41,5 +41,55 @@
         "espanoles": "Come sono gli spagnoli?",
         "dificultades": "Difficoltà lungo il percorso"
       }
-    }
+    },
+    "difficulties": { 
+      "hero": {
+        "title": "SFIDE",
+        "subtitle": "Le difficoltà che ho affrontato durante la mia esperienza"
+      },
+      "cards": {
+        "health": {
+          "title": "SALUTE",
+          "subtitle": "Virus intestinale e ciclo nello stesso momento",
+          "description": "Un incubo che mi ha tenuta a letto mentre gli altri si divertivano. La nostalgia in quei momenti era molto forte."
+        },
+        "loneliness": {
+          "title": "SOLITUDINE",
+          "subtitle": "Lontano dalla famiglia",
+          "description": "Vedere gli altri con i loro genitori in visita è stato difficile. Mi sono sentita sola in quei momenti, specialmente quando ero malata."
+        }
+      },
+      "school_crazy": {
+        "title": "La Grande Idea",
+        "cards": {
+          "thought": {
+            "title": "Il Pensiero",
+            "text": "\"Comunque, i miei genitori ospitanti non hanno l'app della scuola, non vedranno se sono assente.\""
+          },
+          "fact": {
+            "title": "Il Fatto",
+            "text": "Due giorni di assenza per andare al centro e fare quello che volevo."
+          },
+          "reality": {
+            "title": "La Realtà",
+            "text": "Mi hanno beccata subito. Ho rischiato di dover tornare a Palermo prima del previsto, pagando di tasca mia."
+          }
+        }
+      },
+      "other_aspects": {
+        "title": "Altri Aspetti Difficili",
+        "food": {
+          "title": "CIBO",
+          "text": "Non mi sono adattata. Abituata a Palermo, mangiare qui è stato triste."
+        },
+        "money": {
+          "title": "DENARO",
+          "text": "Finito 3 volte. Non so come, ma spariva."
+        },
+        "palermo": {
+          "title": "PALERMO",
+          "text": "Lì succedeva di tutto. Sapevo che avrei perso feste e uscite."
+        }
+      }
+    }  
   }

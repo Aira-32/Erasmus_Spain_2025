@@ -1,6 +1,5 @@
 <script>
 //   import backgroundImage from '/pattern_paseo_de_la_explanada.png'
-  import { onMount } from 'svelte';
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
   import { faHome, faBars } from '@fortawesome/free-solid-svg-icons';
   import { pagine } from '$lib/data/navigation'

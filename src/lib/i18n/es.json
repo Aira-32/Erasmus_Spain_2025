@@ -45,6 +45,57 @@
         "espanoles": "¿Cómo son los españoles?",
         "dificultades": "Dificultades en el camino"
       }
-    }
+    },
+    "difficulties": {
+        "hero": {
+          "title": "RETOS",
+          "subtitle": "Las dificultades que encontré durante mi experiencia"
+        },
+        "cards": {
+          "health": {
+            "title": "SALUD",
+            "subtitle": "Virus intestinal y regla a la vez",
+            "description": "Una pesadilla que me tuvo en cama mientras los demás se divertían. La nostalgia en esos momentos fue muy fuerte."
+          },
+          "loneliness": {
+            "title": "SOLEDAD",
+            "subtitle": "Lejos de la familia",
+            "description": "Ver a los demás con sus padres de visita fue difícil. Me sentí sola en esos momentos, especialmente cuando estaba enferma."
+          }
+        },
+        "school_crazy": {
+          "title": "La Gran Idea",
+          "cards": {
+            "thought": {
+              "title": "El Pensamiento",
+              "text": "\"Total, mis padres de acogida no tienen la app del colegio, no verán si falto.\""
+            },
+            "fact": {
+              "title": "El Hecho",
+              "text": "Dos días de ausencia para irme al centro a hacer lo que me diera la gana."
+            },
+            "reality": {
+              "title": "La Realidad",
+              "text": "Me pillaron al momento. Arriesgué tener que volver a Palermo antes de tiempo y pagándolo de mi bolsillo."
+            }
+          }
+        },
+        "other_aspects": {
+          "title": "Otros Aspectos Difíciles",
+          "food": {
+            "title": "Comida",
+            "text": "No me adapté. Acostumbrada a Palermo, comer aquí fue triste."
+          },
+          "money": {
+            "title": "Dinero",
+            "text": "Se me terminó 3 veces. No sé cómo, pero desaparecía."
+          },
+          "palermo": {
+            "title": "Palermo",
+            "text": "Allí pasaba de todo. Sabía que me perdería fiestas y salidas."
+          }
+        }
+      }  
+
 }
   

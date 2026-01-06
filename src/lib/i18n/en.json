@@ -41,5 +41,55 @@
         "espanoles": "What are Spanish people like?",
         "dificultades": "Difficulties along the way"
       }
-    }
+    },
+    "difficulties": { 
+      "hero": {
+        "title": "CHALLENGES",
+        "subtitle": "The difficulties I faced during my experience"
+      },
+      "cards": {
+        "health": {
+          "title": "HEALTH",
+          "subtitle": "Intestinal virus and period at the same time",
+          "description": "A nightmare that kept me in bed while everyone else was having fun. The nostalgia in those moments was very strong."
+        },
+        "loneliness": {
+          "title": "LONELINESS",
+          "subtitle": "Far from family",
+          "description": "Seeing others with their visiting parents was hard. I felt alone in those moments, especially when I was sick."
+        }
+      },
+      "school_crazy": {
+        "title": "The Big Idea",
+        "cards": {
+          "thought": {
+            "title": "The Thought",
+            "text": "\"Anyway, my host parents don't have the school app, they won't see if I'm absent.\""
+          },
+          "fact": {
+            "title": "The Fact",
+            "text": "Two days off to go to the center and do whatever I wanted."
+          },
+          "reality": {
+            "title": "The Reality",
+            "text": "They caught me immediately. I risked having to go back to Palermo early and pay out of my pocket."
+          }
+        }
+      },
+      "other_aspects": {
+        "title": "Other Difficult Aspects",
+        "food": {
+          "title": "FOOD",
+          "text": "I didn't adapt. Used to Palermo, eating here was sad."
+        },
+        "money": {
+          "title": "MONEY",
+          "text": "I ran out three times. I don't know how, but it disappeared."
+        },
+        "palermo": {
+          "title": "PALERMO",
+          "text": "Everything happened there. I knew I would miss parties and outings."
+        }
+      }
+    }  
   }
