@@ -38,13 +38,29 @@
         "subtitle": "VIAJAR GRATIS",
         "description": "El resto vino por sí solo"
       },
-      "pagine": {
-        "escuela": "Escuela",
-        "alicante": "Alicante",
-        "vida": "¿Cómo es vivir allí?",
-        "espanoles": "¿Cómo son los españoles?",
-        "dificultades": "Dificultades en el camino"
+      "pages": {
+        "school": {
+          "title": "Escuela",
+          "sentence": "Escuela"
+        },
+        "alicante": {
+          "title": "Alicante",
+          "sentence": "Alicante"
+        },
+        "life_in_spain": {
+          "title": "Vida en España",
+          "sentence": "¿Cómo es vivir allí?"
+        },
+        "spaniards": {
+          "title": "Españoles",
+          "sentence": "¿Cómo son los españoles?"
+        },
+        "difficulties": {
+          "title": "Dificultades",
+          "sentence": "Dificultades en el camino"
+        }
       }
+      
     },
     "difficulties": {
         "hero": {

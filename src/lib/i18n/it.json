@@ -34,13 +34,28 @@
         "subtitle": "VIAGGIARE GRATIS",
         "description": "Il resto è venuto da sé"
       },
-      "pagine": {
-        "escuela": "Scuola",
-        "alicante": "Alicante",
-        "vida": "Com'è vivere lì?",
-        "espanoles": "Come sono gli spagnoli?",
-        "dificultades": "Difficoltà lungo il percorso"
-      }
+      "pages": {
+        "school": {
+          "title": "Scuola",
+          "sentence": "Scuola"
+        },
+        "alicante": {
+          "title": "Alicante",
+          "sentence": "Alicante"
+        },
+        "life_in_spain": {
+          "title": "Vita in Spagna",
+          "sentence": "Com’è vivere lì?"
+        },
+        "spaniards": {
+          "title": "Spagnoli",
+          "sentence": "Come sono gli spagnoli?"
+        },
+        "difficulties": {
+          "title": "Difficoltà",
+          "sentence": "Difficoltà lungo il percorso"
+        }
+      }      
     },
     "difficulties": { 
       "hero": {

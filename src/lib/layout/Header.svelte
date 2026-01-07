@@ -2,7 +2,8 @@
 //   import backgroundImage from '/pattern_paseo_de_la_explanada.png'
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
   import { faHome, faBars } from '@fortawesome/free-solid-svg-icons';
-  import { pagine } from '$lib/data/navigation'
+  import { pages } from '$lib/data/navigation'
+  import { t } from 'svelte-i18n';
 
   
 </script>
@@ -22,8 +23,8 @@
             </div> -->
         </div>
         <div class="space-x-5 hidden lg:block">
-            {#each pagine as pagina}
-                <a href={pagina.url} class="hover:opacity-50 cursor-pointer">{pagina.name}</a>
+            {#each pages as page}
+                <a href={page.url} class="hover:opacity-50 cursor-pointer">{$t(`home.pages.${page.id}.title`)}</a>
             {/each}
         </div>
         <button class="lg:hidden">

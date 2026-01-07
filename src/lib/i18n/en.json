@@ -34,13 +34,28 @@
         "subtitle": "TRAVEL FOR FREE",
         "description": "The rest came by itself"
       },
-      "pagine": {
-        "escuela": "School",
-        "alicante": "Alicante",
-        "vida": "What's it like to live there?",
-        "espanoles": "What are Spanish people like?",
-        "dificultades": "Difficulties along the way"
-      }
+      "pages": {
+        "school": {
+          "title": "School",
+          "sentence": "School"
+        },
+        "alicante": {
+          "title": "Alicante",
+          "sentence": "Alicante"
+        },
+        "life_in_spain": {
+          "title": "Life in Spain",
+          "sentence": "What is it like to live there?"
+        },
+        "spaniards": {
+          "title": "Spaniards",
+          "sentence": "What are Spaniards like?"
+        },
+        "difficulties": {
+          "title": "Difficulties",
+          "sentence": "Difficulties along the way"
+        }
+      }      
     },
     "difficulties": { 
       "hero": {
