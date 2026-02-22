@@ -3,97 +3,95 @@
         faSun, faBolt, faUtensils, faShoppingCart, faCar, faHome, faTshirt, faMapMarkerAlt, faUmbrellaBeach
     } from '@fortawesome/free-solid-svg-icons';
     import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
+    import { t } from '$lib/i18n';
 
     let dintorni = {
-    valencia: {
-        regionName: "Comunidad Valenciana",
-        places: [
-            { 
-                title: "Jijona (Xixona)", 
-                desc: "Cuna del turrón. Parada obligatoria.",
-                images: [
-                    "/IMG_0087.webp",
-                    "/IMG_0092.webp",
-                    "/IMG_0089.webp"
-                ]
-            },
-            { 
-                title: "Zoo de Benidorm", 
-                desc: "Zoológico enorme que merece mucho la pena, mejor que la propia ciudad.",
-                images: [
-                    "/IMG_9804.webp",
-                    "/IMG_9914.webp",
-                    "/IMG_9676.webp",
-                    "/IMG_9765.webp"
-                ]
-            }
-        ]
-    },
-    andalucia: {
-        regionName: "Andalucía (Almería)",
-        places: [
-            { 
-                title: "Cabo de Gata", 
-                desc: "Reserva natural. Vimos el faro, las salinas y playas (Genoveses y Monsul).",
-                images: [
-                    "/IMG_9580.webp",
-                    "/IMG_9578.webp"
-                ]
-            },
-            { 
-                title: "San José", 
-                desc: "3 días en hotel con piscina. Pueblecito blanco precioso. Aquí fue donde me salvé de la inundación.",
-                images: [
-                    "/IMG_9484.webp",
-                    "/IMG_9485.webp",
-                    "/IMG_9530.webp"
-                ]
-            }
-        ]
-    }
-};
-
+        valencia: {
+            regionName: $t('alicante.surroundings.valencia.region'),
+            places: [
+                { 
+                    title: $t('alicante.surroundings.valencia.jijona.title'), 
+                    desc: $t('alicante.surroundings.valencia.jijona.description'),
+                    images: [
+                        "/IMG_0087.webp",
+                        "/IMG_0092.webp",
+                        "/IMG_0089.webp"
+                    ]
+                },
+                { 
+                    title: $t('alicante.surroundings.valencia.zoo_benidorm.title'), 
+                    desc: $t('alicante.surroundings.valencia.zoo_benidorm.description'),
+                    images: [
+                        "/IMG_9804.webp",
+                        "/IMG_9914.webp",
+                        "/IMG_9676.webp",
+                        "/IMG_9765.webp"
+                    ]
+                }
+            ]
+        },
+        andalucia: {
+            regionName: $t('alicante.surroundings.andalucia.region'),
+            places: [
+                { 
+                    title: $t('alicante.surroundings.andalucia.cabo_de_gata.title'), 
+                    desc: $t('alicante.surroundings.andalucia.cabo_de_gata.description'),
+                    images: [
+                        "/IMG_9580.webp",
+                        "/IMG_9578.webp"
+                    ]
+                },
+                { 
+                    title: $t('alicante.surroundings.andalucia.san_jose.title'), 
+                    desc: $t('alicante.surroundings.andalucia.san_jose.description'),
+                    images: [
+                        "/IMG_9484.webp",
+                        "/IMG_9485.webp",
+                        "/IMG_9530.webp"
+                    ]
+                }
+            ]
+        }
+    };
 </script>
 
 <main class="w-full pb-20 font-sans text-slate-800" style="background-color: #F7EDE2;">
 
-    <!-- HERO SECTION MODIFICADA: FONDO OSCURO -->
+    <!-- HERO SECTION -->
     <section class="w-full px-4 pt-40 pb-32 text-center text-white relative rounded-b-[3rem]" style="background-color: #004E98;">
-        <h1 class="font-fingerpaint text-5xl md:text-8xl mb-4">Alicante</h1>
-        <p class="text-2xl md:text-3xl opacity-90 mb-12 font-light font-oobaby">Vida Española, Sol & Gastronomía</p>
+        <h1 class="font-fingerpaint text-5xl md:text-8xl mb-4">{$t('alicante.hero.title')}</h1>
+        <p class="text-2xl md:text-3xl opacity-90 mb-12 font-light font-oobaby">{$t('alicante.hero.subtitle')}</p>
 
-        <!-- LE 3 CARD (Spostate per sovrapporsi leggermente o stare dentro il blu) -->
+        <!-- 3 CARDS -->
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-slate-800">
             <!-- Card 1 -->
             <div class="bg-white p-8 rounded-2xl shadow-xl hover:scale-105 transition duration-300">
-                <h3 class="font-reeniebeanie text-4xl font-bold mb-2" style="color: #004E98;">Segura</h3>
-                <p class="text-sm text-gray-600">Paseo de noche sin preocupaciones.</p>
+                <h3 class="font-reeniebeanie text-4xl font-bold mb-2" style="color: #004E98;">{$t('alicante.hero.cards.safe.title')}</h3>
+                <p class="text-sm text-gray-600">{$t('alicante.hero.cards.safe.description')}</p>
             </div>
             <!-- Card 2 -->
             <div class="bg-white p-8 rounded-2xl shadow-xl hover:scale-105 transition duration-300">
-                <h3 class="font-reeniebeanie text-4xl font-bold mb-2" style="color: #0084D1;">Tranquila</h3>
-                <p class="text-sm text-gray-600">Semana tranquila, fin de semana animado.</p>
+                <h3 class="font-reeniebeanie text-4xl font-bold mb-2" style="color: #0084D1;">{$t('alicante.hero.cards.peaceful.title')}</h3>
+                <p class="text-sm text-gray-600">{$t('alicante.hero.cards.peaceful.description')}</p>
             </div>
             <!-- Card 3 -->
             <div class="bg-white p-8 rounded-2xl shadow-xl hover:scale-105 transition duration-300">
-                <h3 class="font-reeniebeanie text-4xl font-bold mb-2" style="color: #F55A3B;">Colorida</h3>
-                <p class="text-sm text-gray-600">Limpia y cuidada en los detalles.</p>
+                <h3 class="font-reeniebeanie text-4xl font-bold mb-2" style="color: #F55A3B;">{$t('alicante.hero.cards.colorful.title')}</h3>
+                <p class="text-sm text-gray-600">{$t('alicante.hero.cards.colorful.description')}</p>
             </div>
         </div>
     </section>
 
-    <!-- SEZIONE RACCOLTA & METEO -->
+    <!-- SEZIONE PULIZIA & METEO -->
     <section class="max-w-6xl mx-auto px-4 mt-20 mb-24">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             
-            <!-- Colonna Sinistra: Riciclo -->
+            <!-- Colonna Sinistra: Pulizia -->
             <div>
-                <h2 class="font-fingerpaint text-3xl mb-6" style="color: #004E98;">Obsesionada con la Limpieza</h2>
+                <h2 class="font-fingerpaint text-3xl mb-6" style="color: #004E98;">{$t('alicante.cleanliness.title')}</h2>
                 <p class="mb-4 text-lg">
-                    No es broma. Ciudad limnísima y obsesionada con el <strong>reciclaje</strong>.
-                    Hay contenedores por todas partes, separados por colores.
+                    {$t('alicante.cleanliness.description')}
                 </p>
-                <!-- FOTO CESTINI -->
                 <div class="rounded-xl overflow-hidden shadow-lg border-4" style="border-color: #0084D1;">
                     <div class="aspect-video bg-gray-200 flex items-center justify-center text-gray-500 font-bold">
                         <img src="/photo_2025-12-16_23-15-32.jpg" alt="">
@@ -101,95 +99,86 @@
                 </div>
             </div>
 
-            <!-- Colonna Destra: Meteo & ALLUVIONE -->
+            <!-- Colonna Destra: Meteo -->
             <div class="bg-white p-8 rounded-3xl shadow-lg border-t-8" style="border-color: #F55A3B;">
                 <div class="flex justify-between items-center mb-6">
-                    <h3 class="font-fingerpaint text-3xl" style="color: #F55A3B;">El Tiempo</h3>
+                    <h3 class="font-fingerpaint text-3xl" style="color: #F55A3B;">{$t('alicante.weather.title')}</h3>
                     <FontAwesomeIcon icon={faSun} class="text-5xl text-yellow-400" />
                 </div>
                 
                 <p class="text-lg mb-4">
-                    Siempre soleado. Literalmente ha llovido 3 veces en todo el período.
-                    El 10 de diciembre la gente se bañaba en el mar.
+                    {$t('alicante.weather.description')}
                 </p>
 
-                <!-- BOX ALLUVIONE EVIDENZIATO -->
+                <!-- BOX ALLUVIONE -->
                 <div class="bg-red-50 border-2 border-red-200 p-5 rounded-xl mt-6">
                     <h4 class="font-bold text-red-600 flex items-center gap-2 mb-2">
-                        <FontAwesomeIcon icon={faBolt} /> La Inundación
+                        <FontAwesomeIcon icon={faBolt} /> {$t('alicante.weather.flood.title')}
                     </h4>
                     <p class="text-sm text-slate-800 leading-relaxed">
-                        Hubo un momento crítico: una inundación increíble.
-                        <br>
-                        <strong>¡Por suerte yo no estaba en Alicante!</strong> Estaba en <span class="underline decoration-red-400">San José</span> en un hotel con piscina, así que me salvé por los pelos mientras la ciudad estaba bajo el agua.
+                        {$t('alicante.weather.flood.description')}
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CASTELLO (Sfondo immagine sbiancata) -->
+    <!-- CASTELLO -->
     <section class="relative w-full flex items-center justify-center min-h-[500px] mb-10 bg-blue-50">
-        <!-- Immagine Sfondo -->
         <div class="w-full">
-            <img src="/IMG_0097.webp" alt="Vista panorámica del Castillo de Santa Bárbara" class="w-full h-auto max-h-[600px] object-cover"/>
+            <img src="/IMG_0097.webp" alt={$t('alicante.landmarks.castle.title')} class="w-full h-auto max-h-[600px] object-cover"/>
         </div>
                 
-        <!-- Testo -->
         <div class="absolute top-8 right-8 z-10 text-end max-w-4xl">
-            <h2 class="font-fingerpaint text-4xl md:text-6xl mb-6 leading-tight" style="color: #004E98;">Castillo de Santa Bárbara</h2>
+            <h2 class="font-fingerpaint text-4xl md:text-6xl mb-6 leading-tight" style="color: #004E98;">{$t('alicante.landmarks.castle.title')}</h2>
             <p class="text-xl md:text-2xl font-medium text-slate-700">
-                La fortaleza que lo domina todo. <br>Vistas increíbles al puerto y al mar.
-            </p>
-        </div>
-    </section>
-    <!-- PORTO (Stile Castello) -->
-    <section class="relative w-full flex items-center justify-center min-h-[500px] mb-10 bg-blue-50">
-        <!-- Immagine Sfondo -->
-        <div class="w-full">
-            <img src="/IMG_9965.webp" alt="Vista sul porto di Alicante" class="w-full h-auto max-h-[600px] object-cover"/>
-        </div>
-                
-        <!-- Testo -->
-        <div class="absolute top-8 left-8 z-10 text-start max-w-4xl">
-            <h2 class="font-fingerpaint text-4xl md:text-6xl mb-6 leading-tight" style="color: #004E98;">Puerto de Alicante</h2>
-            <p class="text-xl md:text-2xl font-medium text-slate-700">
-                Yates, palmeras y ambiente de postal. <br>La Miami de España.
+                {$t('alicante.landmarks.castle.description')}
             </p>
         </div>
     </section>
 
-    <!-- PLAYA (Stile Castello) -->
+    <!-- PORTO -->
     <section class="relative w-full flex items-center justify-center min-h-[500px] mb-10 bg-blue-50">
-        <!-- Immagine Sfondo -->
+        <div class="w-full">
+            <img src="/IMG_9965.webp" alt={$t('alicante.landmarks.port.title')} class="w-full h-auto max-h-[600px] object-cover"/>
+        </div>
+                
+        <div class="absolute top-8 left-8 z-10 text-start max-w-4xl">
+            <h2 class="font-fingerpaint text-4xl md:text-6xl mb-6 leading-tight" style="color: #004E98;">{$t('alicante.landmarks.port.title')}</h2>
+            <p class="text-xl md:text-2xl font-medium text-slate-700">
+                {$t('alicante.landmarks.port.description')}
+            </p>
+        </div>
+    </section>
+
+    <!-- PASEO EXPLANADA -->
+    <section class="relative w-full flex items-center justify-center min-h-[500px] mb-10 bg-blue-50">
         <div class="w-full relative">
-            <img src="/IMG_0104.webp" alt="Vista sul paseo de la explanada" class="w-full object-cover"/>
-            <!-- Overlay scuro per migliorare la leggibilità -->
+            <img src="/IMG_0104.webp" alt={$t('alicante.landmarks.promenade.title')} class="w-full object-cover"/>
             <div class="absolute inset-0 bg-black/30"></div>
         </div>
         
-        <!-- Testo -->
         <div class="absolute z-10 text-center max-w-4xl px-4">
-            <h2 class="font-fingerpaint text-4xl md:text-6xl mb-6 leading-tight text-white drop-shadow-lg">Paseo de la Explanada</h2>
+            <h2 class="font-fingerpaint text-4xl md:text-6xl mb-6 leading-tight text-white drop-shadow-lg">{$t('alicante.landmarks.promenade.title')}</h2>
             <p class="text-xl md:text-2xl font-medium text-white/90 drop-shadow-md">
-                Paseo con vistas al mar y al puerto.
+                {$t('alicante.landmarks.promenade.description')}
             </p>
         </div>
     </section>
-
 
     <!-- MAPPA -->
     <section class="py-20 bg-white">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="font-fingerpaint text-4xl md:text-5xl text-center mb-16" style="color: #004E98;">Mapa de Lugares</h2>
+            <h2 class="font-fingerpaint text-4xl md:text-5xl text-center mb-16" style="color: #004E98;">{$t('alicante.map.title')}</h2>
             <div class="w-full aspect-video rounded-3xl shadow-xl overflow-hidden">
                 <iframe 
                     src="https://www.google.com/maps/d/u/0/embed?mid=18ly6t-urCv5xuZbwNgmWbGq0gxchv18&ehbc=2E312F&noprof=1" 
                     class="w-full h-full"
                     style="border:0;"
-                    allowfullscreen="" 
+                    allowfullscreen 
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Map of Alicante surroundings">
                 </iframe>
             </div>
         </div>
@@ -198,25 +187,25 @@
     <!-- SHOPPING & CIBO -->
     <section class="py-20 rounded-t-[3rem]" style="background-color: #F2D2A2;">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="font-fingerpaint text-4xl md:text-5xl text-center mb-16" style="color: #004E98;">Compras & Centros Comerciales</h2>
+            <h2 class="font-fingerpaint text-4xl md:text-5xl text-center mb-16" style="color: #004E98;">{$t('alicante.shopping.title')}</h2>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
                 <!-- Corte Ingles -->
                 <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-blue-500">
-                    <h3 class="font-bold text-2xl mb-2 text-blue-600">El Corte Inglés</h3>
-                    <p class="text-gray-600">Punto de encuentro fijo. Uno tiene marcas de lujo, el otro (el de la casa) también tiene electrónica.</p>
+                    <h3 class="font-bold text-2xl mb-2 text-blue-600">{$t('alicante.shopping.centers.el_corte_ingles.name')}</h3>
+                    <p class="text-gray-600">{$t('alicante.shopping.centers.el_corte_ingles.description')}</p>
                 </div>
                 
                 <!-- Gran Via -->
                 <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-green-500">
-                    <h3 class="font-bold text-2xl mb-2 text-green-600">Gran Via</h3>
-                    <p class="text-gray-600">Centro comercial con tiendas, cine y restaurantes.</p>
+                    <h3 class="font-bold text-2xl mb-2 text-green-600">{$t('alicante.shopping.centers.gran_via.name')}</h3>
+                    <p class="text-gray-600">{$t('alicante.shopping.centers.gran_via.description')}</p>
                 </div>
                 
                 <!-- Al Campo -->
                 <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-orange-500">
-                    <h3 class="font-bold text-2xl mb-2 text-orange-500">Al Campo</h3>
-                    <p class="text-gray-600">Hace falta coche para llegar. Dentro está el Alcampo, muchas tiendas y cosas varias.</p>
+                    <h3 class="font-bold text-2xl mb-2 text-orange-500">{$t('alicante.shopping.centers.al_campo.name')}</h3>
+                    <p class="text-gray-600">{$t('alicante.shopping.centers.al_campo.description')}</p>
                 </div>
             </div>
 
@@ -225,24 +214,24 @@
                 <!-- SUPERMERCATI -->
                 <div class="bg-white/60 p-8 rounded-3xl border-2 border-white backdrop-blur-sm">
                     <h3 class="font-fingerpaint text-3xl mb-8 flex items-center gap-3" style="color: #004E98;">
-                        <FontAwesomeIcon icon={faShoppingCart} /> Compras
+                        <FontAwesomeIcon icon={faShoppingCart} /> {$t('alicante.shopping.supermarkets.title')}
                     </h3>
                     <ul class="space-y-4 text-lg">
                         <li class="flex flex-col sm:flex-row justify-between border-b border-gray-400/30 pb-3">
-                            <span class="font-bold">Mercadona</span>
-                            <span class="text-gray-700 text-sm sm:text-base">El Mercadona español. Se va aquí.</span>
+                            <span class="font-bold">{$t('alicante.shopping.supermarkets.mercadona.name')}</span>
+                            <span class="text-gray-700 text-sm sm:text-base">{$t('alicante.shopping.supermarkets.mercadona.description')}</span>
                         </li>
                         <li class="flex flex-col sm:flex-row justify-between border-b border-gray-400/30 pb-3">
-                            <span class="font-bold">Carrefour</span>
-                            <span class="text-gray-700 text-sm sm:text-base">El clásico que lo tiene todo.</span>
+                            <span class="font-bold">{$t('alicante.shopping.supermarkets.carrefour.name')}</span>
+                            <span class="text-gray-700 text-sm sm:text-base">{$t('alicante.shopping.supermarkets.carrefour.description')}</span>
                         </li>
                         <li class="flex flex-col sm:flex-row justify-between border-b border-gray-400/30 pb-3">
-                            <span class="font-bold">Lidl</span>
-                            <span class="text-gray-700 text-sm sm:text-base">Calidad y cosas particulares.</span>
+                            <span class="font-bold">{$t('alicante.shopping.supermarkets.lidl.name')}</span>
+                            <span class="text-gray-700 text-sm sm:text-base">{$t('alicante.shopping.supermarkets.lidl.description')}</span>
                         </li>
                         <li class="flex flex-col sm:flex-row justify-between border-b border-gray-400/30 pb-3">
-                            <span class="font-bold">Minimercados</span>
-                            <span class="text-gray-700 text-sm sm:text-base">En cada esquina, siempre abiertos.</span>
+                            <span class="font-bold">{$t('alicante.shopping.supermarkets.minimarkets.name')}</span>
+                            <span class="text-gray-700 text-sm sm:text-base">{$t('alicante.shopping.supermarkets.minimarkets.description')}</span>
                         </li>
                     </ul>
                 </div>
@@ -250,7 +239,7 @@
                 <!-- FAST FOOD -->
                 <div>
                     <h3 class="font-fingerpaint text-3xl mb-8 flex items-center gap-3" style="color: #F55A3B;">
-                        <FontAwesomeIcon icon={faUtensils} /> Comida Rápida
+                        <FontAwesomeIcon icon={faUtensils} /> {$t('alicante.shopping.fast_food.title')}
                     </h3>
                     <div class="grid grid-cols-2 gap-4">
                         <!-- TGB -->
@@ -260,31 +249,31 @@
                         </div>
                         <!-- 100 Montaditos -->
                         <div class="bg-[#8B0000] text-white font-serif text-center py-4 px-2 rounded-xl shadow-sm flex items-center justify-center h-24 text-xl">
-                            100 Montaditos
+                            {$t('alicante.shopping.fast_food.montaditos')}
                         </div>
                         <!-- Five Guys -->
                         <div class="bg-[#DA291C] text-white font-bold text-center py-4 px-2 rounded-xl shadow-sm flex items-center justify-center h-24 text-lg tracking-tighter uppercase border-2 border-white">
-                            FIVE GUYS
+                            {$t('alicante.shopping.fast_food.five_guys')}
                         </div>
                         <!-- Taco Bell -->
                         <div class="bg-[#702082] text-white font-bold text-center py-4 px-2 rounded-xl shadow-sm flex items-center justify-center h-24 text-lg">
-                            Taco Bell
+                            {$t('alicante.shopping.fast_food.taco_bell')}
                         </div>
                         <!-- Domino's -->
                         <div class="bg-[#0055A5] text-white font-bold text-center py-4 px-2 rounded-xl shadow-sm flex items-center justify-center h-24 italic transform -skew-x-6">
-                            Domino's
+                            {$t('alicante.shopping.fast_food.dominos')}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-            <!-- I DINTORNI - VERSIONE AGGIORNATA -->
-            <section class="max-w-6xl mx-auto py-16 px-4 font-oobaby text-4xl">
-                <!-- Titolo principale -->
+    
+    <!-- I DINTORNI - VERSIONE AGGIORNATA -->
+    <section class="max-w-6xl mx-auto py-16 px-4 font-oobaby text-4xl">
+        <!-- Titolo principale -->
         <h2 class="text-4xl md:text-5xl font-bold text-slate-800 text-center mb-4 font-oobaby">
-            LOS ALREDEDORES
+            {$t('alicante.surroundings.title')}
         </h2>
         <div class="h-1 w-24 bg-blue-500 mx-auto mb-8"></div>
 
@@ -313,7 +302,7 @@
                         <div class="p-6">
                             <div class="flex flex-wrap gap-4">
                                 {#each trip.images as image, i}
-                                    <div class="relative overflow-hidden rounded-xl group flex-grow min-w-[300px] h-[400px]">
+                                    <div class="relative overflow-hidden rounded-xl group grow min-w-[300px] h-[400px]">
                                         <img 
                                             src={image}
                                             alt={`${trip.title} - Foto ${i+1}`}

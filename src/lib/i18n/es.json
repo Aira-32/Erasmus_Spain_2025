@@ -1,117 +1,195 @@
 {
-    "home": {
-      "hero": {
-        "title": "Mi experiencia Erasmus en Alicante"
+  "home": {
+    "hero": {
+      "title": "Mi experiencia Erasmus en Alicante"
+    },
+    "carousel": {
+      "image1": { "alt": "Immagine 1", "title": "Immagine 1" },
+      "image2": { "alt": "Immagine 2", "title": "Immagine 2" },
+      "image3": { "alt": "Immagine 3", "title": "Immagine 3" },
+      "image4": { "alt": "Immagine 3", "title": "Immagine 3" },
+      "image5": { "alt": "Immagine 4", "title": "Immagine 4" },
+      "image6": { "alt": "Immagine 5", "title": "Immagine 5" },
+      "image7": { "alt": "Immagine 6", "title": "Immagine 6" }
+    },
+    "section1": {
+      "title": "Pero antes... ¿por qué decidí hacerlo?",
+      "subtitle": "VIAJAR GRATIS",
+      "description": "El resto vino por sí solo"
+    },
+    "pages": {
+      "school": { "title": "Escuela", "sentence": "Escuela" },
+      "alicante": { "title": "Alicante", "sentence": "Alicante" },
+      "life_in_spain": { "title": "Vida en España", "sentence": "¿Cómo es vivir allí?" },
+      "spaniards": { "title": "Españoles", "sentence": "¿Cómo son los españoles?" },
+      "difficulties": { "title": "Dificultades", "sentence": "Dificultades en el camino" }
+    }
+  },
+  "difficulties": {
+    "hero": {
+      "title": "RETOS",
+      "subtitle": "Las dificultades que encontré durante mi experiencia"
+    },
+    "cards": {
+      "health": {
+        "title": "SALUD",
+        "subtitle": "Virus intestinal y regla a la vez",
+        "description": "Una pesadilla que me tuvo en cama mientras los demás se divertían. La nostalgia en esos momentos fue muy fuerte."
       },
-      "carousel": {
-        "image1": {
-          "alt": "Immagine 1",
-          "title": "Immagine 1"
+      "loneliness": {
+        "title": "SOLEDAD",
+        "subtitle": "Lejos de la familia",
+        "description": "Ver a los demás con sus padres de visita fue difícil. Me sentí sola en esos momentos, especialmente cuando estaba enferma."
+      }
+    },
+    "school_crazy": {
+      "title": "La Gran Idea",
+      "cards": {
+        "thought": {
+          "title": "El Pensamiento",
+          "text": "\"Total, mis padres de acogida no tienen la app del colegio, no verán si falto.\""
         },
-        "image2": {
-          "alt": "Immagine 2",
-          "title": "Immagine 2"
+        "fact": {
+          "title": "El Hecho",
+          "text": "Dos días de ausencia para irme al centro a hacer lo que me diera la gana."
         },
-        "image3": {
-          "alt": "Immagine 3",
-          "title": "Immagine 3"
-        },
-        "image4": {
-          "alt": "Immagine 3",
-          "title": "Immagine 3"
-        },
-        "image5": {
-          "alt": "Immagine 4",
-          "title": "Immagine 4"
-        },
-        "image6": {
-          "alt": "Immagine 5",
-          "title": "Immagine 5"
-        },
-        "image7": {
-          "alt": "Immagine 6",
-          "title": "Immagine 6"
-        }
-      },
-      "section1": {
-        "title": "Pero antes... ¿por qué decidí hacerlo?",
-        "subtitle": "VIAJAR GRATIS",
-        "description": "El resto vino por sí solo"
-      },
-      "pages": {
-        "school": {
-          "title": "Escuela",
-          "sentence": "Escuela"
-        },
-        "alicante": {
-          "title": "Alicante",
-          "sentence": "Alicante"
-        },
-        "life_in_spain": {
-          "title": "Vida en España",
-          "sentence": "¿Cómo es vivir allí?"
-        },
-        "spaniards": {
-          "title": "Españoles",
-          "sentence": "¿Cómo son los españoles?"
-        },
-        "difficulties": {
-          "title": "Dificultades",
-          "sentence": "Dificultades en el camino"
+        "reality": {
+          "title": "La Realidad",
+          "text": "Me pillaron al momento. Arriesgué tener que volver a Palermo antes de tiempo y pagándolo de mi bolsillo."
         }
       }
-      
     },
-    "difficulties": {
-        "hero": {
-          "title": "RETOS",
-          "subtitle": "Las dificultades que encontré durante mi experiencia"
+    "other_aspects": {
+      "title": "Otros Aspectos Difíciles",
+      "food": {
+        "title": "Comida",
+        "text": "No me adapté. Acostumbrada a Palermo, comer aquí fue triste."
+      },
+      "money": {
+        "title": "Dinero",
+        "text": "Se me terminó 3 veces. No sé cómo, pero desaparecía."
+      },
+      "palermo": {
+        "title": "Palermo",
+        "text": "Allí pasaba de todo. Sabía que me perdería fiestas y salidas."
+      }
+    }
+  },
+  "alicante": {
+    "hero": {
+      "title": "Alicante",
+      "subtitle": "Vida Española, Sol & Gastronomía",
+      "cards": {
+        "safe": {
+          "title": "Segura",
+          "description": "Paseo de noche sin preocupaciones."
         },
-        "cards": {
-          "health": {
-            "title": "SALUD",
-            "subtitle": "Virus intestinal y regla a la vez",
-            "description": "Una pesadilla que me tuvo en cama mientras los demás se divertían. La nostalgia en esos momentos fue muy fuerte."
-          },
-          "loneliness": {
-            "title": "SOLEDAD",
-            "subtitle": "Lejos de la familia",
-            "description": "Ver a los demás con sus padres de visita fue difícil. Me sentí sola en esos momentos, especialmente cuando estaba enferma."
-          }
+        "peaceful": {
+          "title": "Tranquila",
+          "description": "Semana tranquila, fin de semana animado."
         },
-        "school_crazy": {
-          "title": "La Gran Idea",
-          "cards": {
-            "thought": {
-              "title": "El Pensamiento",
-              "text": "\"Total, mis padres de acogida no tienen la app del colegio, no verán si falto.\""
-            },
-            "fact": {
-              "title": "El Hecho",
-              "text": "Dos días de ausencia para irme al centro a hacer lo que me diera la gana."
-            },
-            "reality": {
-              "title": "La Realidad",
-              "text": "Me pillaron al momento. Arriesgué tener que volver a Palermo antes de tiempo y pagándolo de mi bolsillo."
-            }
-          }
-        },
-        "other_aspects": {
-          "title": "Otros Aspectos Difíciles",
-          "food": {
-            "title": "Comida",
-            "text": "No me adapté. Acostumbrada a Palermo, comer aquí fue triste."
-          },
-          "money": {
-            "title": "Dinero",
-            "text": "Se me terminó 3 veces. No sé cómo, pero desaparecía."
-          },
-          "palermo": {
-            "title": "Palermo",
-            "text": "Allí pasaba de todo. Sabía que me perdería fiestas y salidas."
-          }
+        "colorful": {
+          "title": "Colorida",
+          "description": "Limpia y cuidada en los detalles."
         }
-      }  
-
+      }
+    },
+    "cleanliness": {
+      "title": "Obsesionada con la Limpieza",
+      "description": "No es broma. Ciudad limnísima y obsesionada con el reciclaje. Hay contenedores por todas partes, separados por colores."
+    },
+    "weather": {
+      "title": "El Tiempo",
+      "description": "Siempre soleado. Literalmente ha llovido 3 veces en todo el período. El 10 de diciembre la gente se bañaba en el mar.",
+      "flood": {
+        "title": "La Inundación",
+        "description": "Hubo un momento crítico: una inundación increíble. ¡Por suerte yo no estaba en Alicante! Estaba en San José en un hotel con piscina, así que me salvé por los pelos mientras la ciudad estaba bajo el agua."
+      }
+    },
+    "landmarks": {
+      "castle": {
+        "title": "Castillo de Santa Bárbara",
+        "description": "La fortaleza que lo domina todo. Vistas increíbles al puerto y al mar."
+      },
+      "port": {
+        "title": "Puerto de Alicante",
+        "description": "Yates, palmeras y ambiente de postal. La Miami de España."
+      },
+      "promenade": {
+        "title": "Paseo de la Explanada",
+        "description": "Paseo con vistas al mar y al puerto."
+      }
+    },
+    "map": { "title": "Mapa de Lugares" },
+    "shopping": {
+      "title": "Compras & Centros Comerciales",
+      "centers": {
+        "el_corte_ingles": {
+          "name": "El Corte Inglés",
+          "description": "Punto de encuentro fijo. Uno tiene marcas de lujo, el otro (el de la casa) también tiene electrónica."
+        },
+        "gran_via": {
+          "name": "Gran Via", 
+          "description": "Centro comercial con tiendas, cine y restaurantes."
+        },
+        "al_campo": {
+          "name": "Al Campo",
+          "description": "Hace falta coche para llegar. Dentro está el Alcampo, muchas tiendas y cosas varias."
+        }
+      },
+      "supermarkets": {
+        "title": "Compras",
+        "mercadona": {
+          "name": "Mercadona",
+          "description": "Es como el Conad en Italia, en cualquier sitio."
+        },
+        "carrefour": {
+          "name": "Carrefour", 
+          "description": "El clásico que lo tiene todo."
+        },
+        "lidl": {
+          "name": "Lidl",
+          "description": "Calidad y cosas particulares."
+        },
+        "minimarkets": {
+          "name": "Minimarket",
+          "description": "En cada barrio, siempre abiertos."
+        }
+      },
+      "fast_food": {
+        "title": "Comida Rápida",
+        "tgb": "The Good Burger",
+        "montaditos": "100 Montaditos",
+        "five_guys": "FIVE GUYS",
+        "taco_bell": "Taco Bell",
+        "dominos": "Domino's"
+      }
+    },
+    
+    "surroundings": {
+      "title": "Alrededores de Alicante",
+      "valencia": {
+        "region": "Comunidad Valenciana",
+        "jijona": {
+          "title": "Jijona (Xixona)",
+          "description": "Cuna del turrón. Parada obligatoria."
+        },
+        "zoo_benidorm": {
+          "title": "Zoo de Benidorm",
+          "description": "Zoológico enorme que merece mucho la pena, mejor que la propia ciudad."
+        }
+      },
+      "andalucia": {
+        "region": "Andalucía (Almería)",
+        "cabo_de_gata": {
+          "title": "Cabo de Gata",
+          "description": "Reserva natural. Vimos el faro, las salinas y playas (Genoveses y Monsul)."
+        },
+        "san_jose": {
+          "title": "San José",
+          "description": "3 días en hotel con piscina. Pueblecito blanco precioso. Aquí fue donde me salvé de la inundación."
+        }
+      }
+    }
+  }
 }
-  

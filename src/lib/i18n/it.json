@@ -106,5 +106,121 @@
           "text": "Lì succedeva di tutto. Sapevo che avrei perso feste e uscite."
         }
       }
+    },  
+    "alicante": {
+      "hero": {
+        "title": "Alicante",
+        "subtitle": "Vita Spagnola, Sole & Gastronomia",
+        "cards": {
+          "safe": {
+            "title": "Sicura",
+            "description": "Passeggiare di notte senza preoccupazioni."
+          },
+          "peaceful": {
+            "title": "Tranquilla",
+            "description": "Settimana tranquilla, fine settimana animato."
+          },
+          "colorful": {
+            "title": "Colorata",
+            "description": "Pulita e curata nei dettagli."
+          }
+        }
+      },
+      "cleanliness": {
+        "title": "Ossessionata della Pulizia",
+        "description": "Niente scherzi. Città pulitissima e ossessionata dal riciclo. Contenitori ovunque, separati per colori."
+      },
+      "weather": {
+        "title": "Il Tempo",
+        "description": "Sempre soleggiato. Letteralmente piovuto solo 3 volte in tutto il periodo. Il 10 dicembre la gente faceva il bagno nel mare.",
+        "flood": {
+          "title": "L'Alluvione",
+          "description": "C'è stato un momento critico: un'inondazione incredibile. Per fortuna non ero ad Alicante! Ero a San José in un hotel con piscina, così mi sono salvata per un pelo mentre la città era sott'acqua."
+        }
+      },
+      "landmarks": {
+        "castle": {
+          "title": "Castello di Santa Bárbara",
+          "description": "La fortezza che domina tutto. Viste incredibili sul porto e il mare."
+        },
+        "port": {
+          "title": "Porto di Alicante",
+          "description": "Yacht, palme e atmosfera da cartolina. La Miami della Spagna."
+        },
+        "promenade": {
+          "title": "Paseo de la Explanada",
+          "description": "Passeggiata con viste sul mare e sul porto."
+        }
+      },
+      "map": { "title": "Mappa dei Luoghi" },
+      "shopping": {
+        "title": "Shopping & Centri Commerciali",
+        "centers": {
+          "el_corte_ingles": {
+            "name": "El Corte Inglés",
+            "description": "Punto d'incontro fisso. Uno ha marchi di lusso, l'altro (quello di casa) ha anche elettronica."
+          },
+          "gran_via": {
+            "name": "Gran Via", 
+            "description": "Centro commerciale con negozi, cinema e ristoranti."
+          },
+          "al_campo": {
+            "name": "Al Campo",
+            "description": "Serve l'auto per arrivare. Dentro c'è l'Alcampo, tanti negozi e cose varie."
+          }
+        },
+        "supermarkets": {
+          "title": "Spesa",
+          "mercadona": {
+            "name": "Mercadona",
+            "description": "Come il Conad in Italia, ovunque."
+          },
+          "carrefour": {
+            "name": "Carrefour", 
+            "description": "Il classico che ha tutto."
+          },
+          "lidl": {
+            "name": "Lidl",
+            "description": "Qualità e cose particolari."
+          },
+          "minimarkets": {
+            "name": "Minimarket",
+            "description": "In ogni quartiere, sempre aperti."
+          }
+        },
+        "fast_food": {
+          "title": "Fast Food",
+          "tgb": "The Good Burger",
+          "montaditos": "100 Montaditos",
+          "five_guys": "FIVE GUYS",
+          "taco_bell": "Taco Bell",
+          "dominos": "Domino's"
+        }
+      },
+      "surroundings": {
+        "title": "Dintorni di Alicante",
+        "valencia": {
+          "region": "Comunità Valenzana",
+          "jijona": {
+            "title": "Jijona (Xixona)",
+            "description": "Culla del torrone. Tappa obbligatoria."
+          },
+          "zoo_benidorm": {
+            "title": "Zoo di Benidorm",
+            "description": "Zoo enorme che vale molto la pena, meglio della città stessa."
+          }
+        },
+        "andalucia": {
+          "region": "Andalusia (Almería)",
+          "cabo_de_gata": {
+            "title": "Cabo de Gata",
+            "description": "Riserva naturale. Abbiamo visto il faro, le saline e spiagge (Genoveses e Monsul)."
+          },
+          "san_jose": {
+            "title": "San José",
+            "description": "3 giorni in hotel con piscina. Paesino bianco bellissimo. Qui dove mi sono salvata dall'alluvione."
+          }
+        }
+      }
     }  
   }

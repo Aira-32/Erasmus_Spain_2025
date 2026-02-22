@@ -106,5 +106,121 @@
           "text": "Everything happened there. I knew I would miss parties and outings."
         }
       }
+    },  
+    "alicante": {
+      "hero": {
+        "title": "Alicante",
+        "subtitle": "Spanish Life, Sun & Gastronomy",
+        "cards": {
+          "safe": {
+            "title": "Safe",
+            "description": "Walking around at night without worries."
+          },
+          "peaceful": {
+            "title": "Peaceful",
+            "description": "Quiet week, lively weekend."
+          },
+          "colorful": {
+            "title": "Colorful",
+            "description": "Clean and cared for in details."
+          }
+        }
+      },
+      "cleanliness": {
+        "title": "Obsessed with Cleanliness",
+        "description": "No joke. Extremely clean city and obsessed with recycling. Containers everywhere, separated by colors."
+      },
+      "weather": {
+        "title": "The Weather",
+        "description": "Always sunny. Literally rained only 3 times the whole period. On December 10th people were swimming in the sea.",
+        "flood": {
+          "title": "The Flood",
+          "description": "There was a critical moment: an incredible flood. Luckily I wasn't in Alicante! I was in San José in a hotel with pool, so I narrowly escaped while the city was underwater."
+        }
+      },
+      "landmarks": {
+        "castle": {
+          "title": "Santa Bárbara Castle",
+          "description": "The fortress that dominates everything. Incredible views of the port and the sea."
+        },
+        "port": {
+          "title": "Port of Alicante",
+          "description": "Yachts, palm trees and postcard atmosphere. The Miami of Spain."
+        },
+        "promenade": {
+          "title": "Explanada Promenade",
+          "description": "Promenade with sea and port views."
+        }
+      },
+      "map": { "title": "Map of Places" },
+      "shopping": {
+        "title": "Shopping & Malls",
+        "centers": {
+          "el_corte_ingles": {
+            "name": "El Corte Inglés",
+            "description": "Fixed meeting point. One has luxury brands, the other (the house one) also has electronics."
+          },
+          "gran_via": {
+            "name": "Gran Via", 
+            "description": "Shopping center with stores, cinema and restaurants."
+          },
+          "al_campo": {
+            "name": "Al Campo",
+            "description": "Need a car to get there. Inside there's Alcampo, many stores and various things."
+          }
+        },
+        "supermarkets": {
+          "title": "Shopping",
+          "mercadona": {
+            "name": "Mercadona",
+            "description": "Like Conad in Italy, anywhere."
+          },
+          "carrefour": {
+            "name": "Carrefour", 
+            "description": "The classic that has everything."
+          },
+          "lidl": {
+            "name": "Lidl",
+            "description": "Quality and particular things."
+          },
+          "minimarkets": {
+            "name": "Minimarkets",
+            "description": "In every neighborhood, always open."
+          }
+        },
+        "fast_food": {
+          "title": "Fast Food",
+          "tgb": "The Good Burger",
+          "montaditos": "100 Montaditos",
+          "five_guys": "FIVE GUYS",
+          "taco_bell": "Taco Bell",
+          "dominos": "Domino's"
+        }
+      },
+      "surroundings": {
+        "title": "Alicante Surroundings",
+        "valencia": {
+          "region": "Valencia Community",
+          "jijona": {
+            "title": "Jijona (Xixona)",
+            "description": "Cradle of nougat. Mandatory stop."
+          },
+          "zoo_benidorm": {
+            "title": "Benidorm Zoo",
+            "description": "Huge zoo that's very worth it, better than the city itself."
+          }
+        },
+        "andalucia": {
+          "region": "Andalusia (Almería)",
+          "cabo_de_gata": {
+            "title": "Cabo de Gata",
+            "description": "Nature reserve. We saw the lighthouse, salt flats and beaches (Genoveses and Monsul)."
+          },
+          "san_jose": {
+            "title": "San José",
+            "description": "3 days in hotel with pool. Beautiful white village. This is where I was saved from the flood."
+          }
+        }
+      }
     }  
   }
