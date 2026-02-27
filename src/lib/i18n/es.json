@@ -191,5 +191,49 @@
         }
       }
     }
+  },
+  "lifeInSpain": {
+    "spaniards": {
+      "title": "LOS ESPAÑOLES",
+      "subtitle": "Cosas que he notado",
+      "physical": "Empecemos por lo físico: casi todos son delgados (tanto chicos como chicas), pero extrañamente la mayoría tiene mucho acné.",
+      "behaviorTitle": "Comportamiento & Fiestas",
+      "behaviorText": "Son muy amables prácticamente todos y muy \"fiesteros\". Les encanta la música italiana, ¡es super apreciada aquí! Pero hay algo extraño: los sábados por la noche apenas se ve a nadie por la calle, la verdad.",
+      "schoolTitle": "En el Colegio",
+      "schoolText1": "Los jóvenes son muy diferentes a nosotros. Siempre beben leche o leche con cacao (tipo Nesquik).",
+      "schoolText2": "Hay muy poco acoso escolar.",
+      "schoolText3": "La gente es muy atenta en clase y no molesta. Sin embargo, si tienen deberes que hacer, para ellos el día ha terminado: nunca salen durante la semana (excepto los viernes).",
+      "imageAlt": "Amigas en España"
+    },
+    "hostFamily": {
+      "title": "Mi Familia de Acogida",
+      "parentsLabel": "Los Padres",
+      "intro": "Con la familia de acogida he pasado muchísimo tiempo juntos. ¡Me han llevado prácticamente a todas partes!",
+      "paco": {
+        "origin": "Francisco (de Murcia)",
+        "job": "Contable en una empresa de transporte de autobuses",
+        "description": "Con él tengo una relación especial. Es muy organizado y le encanta hablar de su trabajo. Además, le apasiona aprender nuevos idiomas y a menudo hablamos de las diferencias entre el italiano y el español. Hemos hecho un montón de cosas juntos:",
+        "list1": "He cocinado con él",
+        "list2": "Jugábamos a las cartas por la noche (con Angelines)",
+        "list3": "¡Paseos en bici juntos!"
+      },
+      "angelines": {
+        "origin": "De Villarobledo",
+        "job": "Maestra de escuela primaria",
+        "description": "Como maestra, tiene mucha paciencia y le encanta enseñar. Siempre está dispuesta a ayudar con los deberes o explicar cualquier duda que tenga. Es muy cariñosa y se preocupa mucho por todos en casa."
+      },
+      "sisters": {
+        "title": "Las Hermanas",
+        "ireneInfo": "15 años - 4° de ESO",
+        "luciaInfo": "19 años - Estudia en la universidad de Elche"
+      },
+      "gallery": {
+        "title": "Galería de Fotos",
+        "image1": "Momento con la familia española",
+        "image2": "Recuerdo de una salida",
+        "image3": "Experiencia en España"
+      }
+    }
   }
 }
+

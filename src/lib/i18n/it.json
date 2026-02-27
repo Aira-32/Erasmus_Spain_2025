@@ -222,5 +222,48 @@
           }
         }
       }
-    }  
+    },
+    "lifeInSpain": {
+      "spaniards": {
+        "title": "GLI SPAGNOLI",
+        "subtitle": "Cose che ho notato",
+        "physical": "Cominciamo dall'aspetto fisico: quasi tutti sono magri (sia ragazzi che ragazze), ma stranamente la maggior parte ha molta acne.",
+        "behaviorTitle": "Comportamento & Feste",
+        "behaviorText": "Sono praticamente tutti molto gentili e molto \"festaioli\". Amano la musica italiana, è super apprezzata qui! Ma c'è qualcosa di strano: il sabato sera non si vede quasi nessuno per strada, davvero.",
+        "schoolTitle": "A Scuola",
+        "schoolText1": "I giovani sono molto diversi da noi. Bevono sempre latte o latte con cacao (tipo Nesquik).",
+        "schoolText2": "C'è pochissimo bullismo.",
+        "schoolText3": "Le persone sono molto attente in classe e non disturbano. Tuttavia, se hanno compiti da fare, per loro la giornata è finita: non escono mai durante la settimana (tranne il venerdì).",
+        "imageAlt": "Amiche in Spagna"
+      },
+      "hostFamily": {
+        "title": "La Mia Famiglia Ospitante",
+        "parentsLabel": "I Genitori",
+        "intro": "Con la famiglia ospitante ho passato moltissimo tempo insieme. Mi hanno portato praticamente ovunque!",
+        "paco": {
+          "origin": "Francisco (di Murcia)",
+          "job": "Contabile in un'azienda di trasporto autobus",
+          "description": "Con lui ho una relazione speciale. È molto organizzato e gli piace parlare del suo lavoro. Inoltre, gli appassiona imparare nuove lingue e spesso parliamo delle differenze tra italiano e spagnolo. Abbiamo fatto un sacco di cose insieme:",
+          "list1": "Ho cucinato con lui",
+          "list2": "Giocavamo a carte la sera (con Angelines)",
+          "list3": "Giri in bici insieme!"
+        },
+        "angelines": {
+          "origin": "Di Villarobledo",
+          "job": "Maestra di scuola primaria",
+          "description": "Come maestra, ha molta pazienza e le piace insegnare. È sempre disponibile ad aiutare con i compiti o spiegare qualsiasi dubbio. È molto affettuosa e si preoccupa molto per tutti in casa."
+        },
+        "sisters": {
+          "title": "Le Sorelle",
+          "ireneInfo": "15 anni - 4° ESO",
+          "luciaInfo": "19 anni - Studia all'università di Elche"
+        },
+        "gallery": {
+          "title": "Galleria Foto",
+          "image1": "Momento con la famiglia spagnola",
+          "image2": "Ricordo di un'uscita",
+          "image3": "Esperienza in Spagna"
+        }
+      }
+    }
   }

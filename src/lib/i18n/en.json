@@ -222,5 +222,48 @@
           }
         }
       }
-    }  
+    },
+    "lifeInSpain": {
+      "spaniards": {
+        "title": "THE SPANIARDS",
+        "subtitle": "Things I have noticed",
+        "physical": "Let’s start with the physical aspect: almost all of them are slim (both boys and girls), but strangely most of them have a lot of acne.",
+        "behaviorTitle": "Behavior & Parties",
+        "behaviorText": "Almost all of them are very kind and very \"party-loving\". They love Italian music, it is super appreciated here! But there is something strange: on Saturday nights you hardly see anyone in the streets, honestly.",
+        "schoolTitle": "At School",
+        "schoolText1": "Young people are very different from us. They always drink milk or milk with cocoa (like Nesquik).",
+        "schoolText2": "There is very little bullying.",
+        "schoolText3": "People are very attentive in class and do not disturb. However, if they have homework to do, for them the day is over: they never go out during the week (except on Fridays).",
+        "imageAlt": "Friends in Spain"
+      },
+      "hostFamily": {
+        "title": "My Host Family",
+        "parentsLabel": "The Parents",
+        "intro": "With the host family I have spent a lot of time together. They have taken me practically everywhere!",
+        "paco": {
+          "origin": "Francisco (from Murcia)",
+          "job": "Accountant in a bus transport company",
+          "description": "With him I have a special relationship. He is very organized and loves talking about his job. Moreover, he is passionate about learning new languages and we often talk about the differences between Italian and Spanish. We have done a lot of things together:",
+          "list1": "I cooked with him",
+          "list2": "We used to play cards at night (with Angelines)",
+          "list3": "Bike rides together!"
+        },
+        "angelines": {
+          "origin": "From Villarobledo",
+          "job": "Primary school teacher",
+          "description": "As a teacher, she has a lot of patience and loves teaching. She is always willing to help with homework or explain any doubt I have. She is very caring and worries a lot about everyone at home."
+        },
+        "sisters": {
+          "title": "The Sisters",
+          "ireneInfo": "15 years old - 4th of ESO",
+          "luciaInfo": "19 years old - Studies at the University of Elche"
+        },
+        "gallery": {
+          "title": "Photo Gallery",
+          "image1": "Moment with the Spanish family",
+          "image2": "Memory of an outing",
+          "image3": "Experience in Spain"
+        }
+      }
+    }
   }
