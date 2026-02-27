@@ -234,6 +234,60 @@
         "image3": "Experiencia en España"
       }
     }
+  },
+  "livingInSpain": {
+    "hero": {
+      "title": "Vivir en España",
+      "subtitle": "Las diferencias que he notado (Comida, Casas y Transporte)"
+    },
+    "food": {
+      "title": "Supermercados y Comida",
+      "supermarketTitle": "¿Qué cambia en el Supermercado?",
+      "point1": "<strong>Precios:</strong> Algunas cosas cuestan mucho más, especialmente el papel higiénico y los huevos.",
+      "point2": "<strong>Carne y Pollo:</strong> Cortes mucho más gruesos y fáciles de masticar.",
+      "point3": "<strong>Leche:</strong> Tienen una sección dedicada con cajas apiladas como si fuera agua.",
+      "point4": "<strong>Productos de EE.UU.:</strong> Lleno de cosas que no existen en nuestro país (800 tipos de Milka, Doritos, Cheetos).",
+      "disappointmentTitle": "La decepción del sabor:",
+      "taste1": "<strong>Guisantes:</strong> Literalmente no saben a nada.",
+      "taste2": "<strong>Salsa:</strong> Muy dulce, parece que lleva azúcar.",
+      "cookingTitle": "Cómo cocinan ellos",
+      "cook1": "La pasta se cocina para ser comida 1 o 2 días después.",
+      "cook2": "<strong>No cocinan la salsa:</strong> la vierten directamente de la botella (o de los envases pequeños como de leche) sobre la pasta.",
+      "image1Alt": "Sección de supermercado",
+      "image2Alt": "Productos del supermercado"
+    },
+    "transport": {
+      "title": "Transporte Público: Una Delicia",
+      "point1": "<strong>Máxima eficiencia: Autobuses 100% eléctricos y muy frecuentes.</strong>",
+      "point2": "<strong>Las paradas: Casi siempre tienen asientos, papelera y una pantalla alimentada por paneles solares que te indica los minutos de espera.</strong>",
+      "point3": "<strong>Curiosidad: El mismo autobús tiene el mismo número pero dos nombres diferentes según la dirección del recorrido.</strong>",
+      "ticketsTitle": "Billetes y Precios",
+      "ticket1": "<strong>Sin revisor: Lo hace todo el conductor.</strong>",
+      "ticket2": "<strong>Billete sencillo: 1,45€ a bordo.</strong>",
+      "ticket3": "<strong>Abonos: Se compran tarjetas recargables (sin caducidad) en los Estancos (estancos). Se recargan allí o en el autobús.</strong>",
+      "image1Alt": "Autobús urbano",
+      "image2Alt": "Parada de autobús"
+    },
+    "house": {
+      "title": "Casa y Residencia",
+      "houseTitle": "Interior de la Casa",
+      "house1": "<strong>Agua:</strong> La del grifo no es buena. Tenemos dos grifos (uno con filtro) o usamos garrafas de 6L (cuestan menos que las cajas).",
+      "house2": "<strong>Comodidades:</strong> Lavavajillas, aire acondicionado, calefacción.",
+      "house3": "<strong>Ventilador:</strong> Casi cada habitación tiene un ventilador de techo que también sirve de lámpara de techo.",
+      "house4": "<strong>Baños:</strong> Dos baños (uno con ducha, otro con bañera).",
+      "residenceTitle": "La Residencia",
+      "res1": "Complejo de 150 casas.",
+      "res2": "Piscina grande siempre llena y limpia.",
+      "res3": "Campo polideportivo (Fútbol, Baloncesto, Tenis).",
+      "res4": "Parque infantil."
+    },
+    "schedule": {
+      "title": "Horarios Españoles",
+      "subtitle": "Aquí se vive con el horario desplazado:",
+      "lunch": "Comida",
+      "dinner": "Cena",
+      "dinnerNote": "(Nosotros cenábamos a las 21:00)"
+    }
   }
 }
 

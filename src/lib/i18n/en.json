@@ -265,5 +265,59 @@
           "image3": "Experience in Spain"
         }
       }
+    },
+      "livingInSpain": {
+      "hero": {
+        "title": "Living in Spain",
+        "subtitle": "The differences I noticed (Food, Houses and Transport)"
+      },
+      "food": {
+        "title": "Supermarkets and Food",
+        "supermarketTitle": "What changes in the Supermarket?",
+        "point1": "<strong>Prices:</strong> Some things cost much more, especially toilet paper and eggs.",
+        "point2": "<strong>Meat and Chicken:</strong> Much thicker cuts and easier to chew.",
+        "point3": "<strong>Milk:</strong> They have a dedicated section with stacked cartons like water.",
+        "point4": "<strong>U.S. Products:</strong> Full of things that do not exist in our country (800 types of Milka, Doritos, Cheetos).",
+        "disappointmentTitle": "The taste disappointment:",
+        "taste1": "<strong>Peas:</strong> They literally taste like nothing.",
+        "taste2": "<strong>Sauce:</strong> Very sweet, it feels like it has sugar.",
+        "cookingTitle": "How they cook",
+        "cook1": "Pasta is cooked to be eaten 1 or 2 days later.",
+        "cook2": "<strong>They do not cook the sauce:</strong> they pour it directly from the bottle (or small milk-like containers) onto the pasta.",
+        "image1Alt": "Supermarket section",
+        "image2Alt": "Supermarket products"
+      },
+      "transport": {
+        "title": "Public Transport: A Delight",
+        "point1": "<strong>Maximum efficiency: 100% electric buses and very frequent.</strong>",
+        "point2": "<strong>Stops: Almost always with seats, trash bin and a solar-powered screen showing waiting minutes.</strong>",
+        "point3": "<strong>Curiosity: The same bus has the same number but two different names depending on direction.</strong>",
+        "ticketsTitle": "Tickets and Prices",
+        "ticket1": "<strong>No inspector: The driver handles everything.</strong>",
+        "ticket2": "<strong>Single ticket: €1.45 on board.</strong>",
+        "ticket3": "<strong>Passes: Rechargeable cards (no expiration) are bought in tobacco shops. They can be recharged there or on the bus.</strong>",
+        "image1Alt": "City bus",
+        "image2Alt": "Bus stop"
+      },
+      "house": {
+        "title": "House and Residence",
+        "houseTitle": "Inside the House",
+        "house1": "<strong>Water:</strong> Tap water is not good. We have two taps (one filtered) or use 6L bottles (they cost less than boxes).",
+        "house2": "<strong>Comfort:</strong> Dishwasher, air conditioning, heating.",
+        "house3": "<strong>Fan:</strong> Almost every room has a ceiling fan that also works as a ceiling light.",
+        "house4": "<strong>Bathrooms:</strong> Two bathrooms (one with shower, one with bathtub).",
+        "residenceTitle": "The Residence",
+        "res1": "Complex of 150 houses.",
+        "res2": "Large swimming pool always full and clean.",
+        "res3": "Sports field (Football, Basketball, Tennis).",
+        "res4": "Playground."
+      },
+      "schedule": {
+        "title": "Spanish Schedules",
+        "subtitle": "Here people live with shifted hours:",
+        "lunch": "Lunch",
+        "dinner": "Dinner",
+        "dinnerNote": "(We used to have dinner at 21:00)"
+      }
     }
   }

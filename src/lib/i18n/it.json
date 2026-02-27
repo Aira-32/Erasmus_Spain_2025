@@ -265,5 +265,59 @@
           "image3": "Esperienza in Spagna"
         }
       }
+    },
+    "livingInSpain": {
+      "hero": {
+        "title": "Vivere in Spagna",
+        "subtitle": "Le differenze che ho notato (Cibo, Case e Trasporti)"
+      },
+      "food": {
+        "title": "Supermercati e Cibo",
+        "supermarketTitle": "Cosa cambia al Supermercato?",
+        "point1": "<strong>Prezzi:</strong> Alcune cose costano molto di più, specialmente la carta igienica e le uova.",
+        "point2": "<strong>Carne e Pollo:</strong> Tagli molto più spessi e facili da masticare.",
+        "point3": "<strong>Latte:</strong> Hanno una sezione dedicata con scatole impilate come se fosse acqua.",
+        "point4": "<strong>Prodotti USA:</strong> Pieno di cose che non esistono nel nostro paese (800 tipi di Milka, Doritos, Cheetos).",
+        "disappointmentTitle": "La delusione del sapore:",
+        "taste1": "<strong>Piselli:</strong> Letteralmente non sanno di nulla.",
+        "taste2": "<strong>Salsa:</strong> Molto dolce, sembra che abbia zucchero.",
+        "cookingTitle": "Come cucinano loro",
+        "cook1": "La pasta viene cucinata per essere mangiata 1 o 2 giorni dopo.",
+        "cook2": "<strong>Non cucinano la salsa:</strong> la versano direttamente dalla bottiglia (o dai contenitori piccoli tipo latte) sopra la pasta.",
+        "image1Alt": "Reparto supermercato",
+        "image2Alt": "Prodotti del supermercato"
+      },
+      "transport": {
+        "title": "Trasporto Pubblico: Una Meraviglia",
+        "point1": "<strong>Massima efficienza: Autobus 100% elettrici e molto frequenti.</strong>",
+        "point2": "<strong>Fermate: Quasi sempre con sedili, cestino e uno schermo alimentato da pannelli solari che indica i minuti di attesa.</strong>",
+        "point3": "<strong>Curiosità: Lo stesso autobus ha lo stesso numero ma due nomi diversi a seconda della direzione.</strong>",
+        "ticketsTitle": "Biglietti e Prezzi",
+        "ticket1": "<strong>Senza controllore: Fa tutto il conducente.</strong>",
+        "ticket2": "<strong>Biglietto singolo: 1,45€ a bordo.</strong>",
+        "ticket3": "<strong>Abbonamenti: Si comprano carte ricaricabili (senza scadenza) nei tabacchi. Si ricaricano lì o sull'autobus.</strong>",
+        "image1Alt": "Autobus urbano",
+        "image2Alt": "Fermata dell'autobus"
+      },
+      "house": {
+        "title": "Casa e Residence",
+        "houseTitle": "Interno della Casa",
+        "house1": "<strong>Acqua:</strong> Quella del rubinetto non è buona. Abbiamo due rubinetti (uno con filtro) o usiamo taniche da 6L (costano meno delle casse).",
+        "house2": "<strong>Comfort:</strong> Lavastoviglie, aria condizionata, riscaldamento.",
+        "house3": "<strong>Ventilatore:</strong> Quasi ogni stanza ha un ventilatore da soffitto che funge anche da lampadario.",
+        "house4": "<strong>Bagni:</strong> Due bagni (uno con doccia, uno con vasca).",
+        "residenceTitle": "Il Residence",
+        "res1": "Complesso di 150 case.",
+        "res2": "Piscina grande sempre piena e pulita.",
+        "res3": "Campo sportivo (Calcio, Basket, Tennis).",
+        "res4": "Parco giochi."
+      },
+      "schedule": {
+        "title": "Orari Spagnoli",
+        "subtitle": "Qui si vive con l'orario spostato:",
+        "lunch": "Pranzo",
+        "dinner": "Cena",
+        "dinnerNote": "(Noi cenavamo alle 21:00)"
+      }
     }
   }
