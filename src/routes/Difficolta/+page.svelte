@@ -7,7 +7,7 @@
   <main class="w-full pb-20 font-sans text-slate-800" style="background-color: #F7EDE2;">
   
     <!-- HERO -->
-    <section class="w-full px-6 pt-20 pb-32 md:pt-82 md:pb-40 text-white relative overflow-hidden rounded-b-[3rem] bg-linear-to-br from-[#004E98] to-[#3A86FF]">
+    <section class="w-full px-6 pt-20 pb-32 md:pt-82 md:pb-40 text-white relative overflow-hidden rounded-b-[3rem] bg-linear-to-br from-primary to-[#3A86FF]">
       <div class="max-w-6xl mx-auto relative z-10 px-4">
         <div class="text-left max-w-2xl">
           <h1 class="font-fingerpaint text-5xl md:text-7xl lg:text-8xl mb-4 leading-none text-white drop-shadow-lg">

@@ -288,6 +288,300 @@
       "dinner": "Cena",
       "dinnerNote": "(Nosotros cenábamos a las 21:00)"
     }
+  },
+  "school": {
+    "hero": {
+      "title": "COLEGIO ESPAÑOL",
+      "description": "El sistema educativo español es completamente diferente, con exámenes escritos continuos y sin orales."
+    },
+    "comparison_section": {
+      "title": "Comparación de Sistemas Educativos",
+      "subtitle": "Un análisis visual de las diferencias entre los sistemas educativos italiano y español"
+    },
+    "italy_card": {
+      "title": "ITALIA",
+      "age_range": "18-19 años (17-18 con primina)",
+      "infant": {
+        "age": "3-5 años",
+        "duration": "3 años",
+        "description": "Escuela Infantil (no obligatoria)"
+      },
+      "primary": {
+        "age": "6-10 años (5-9 con primina)",
+        "duration": "5 años",
+        "description": "Escuela Primaria"
+      },
+      "secondary_first": {
+        "age": "11-13 años (10-12 con primina)",
+        "duration": "3 años",
+        "description": "Escuela Secundaria de Primer Grado"
+      },
+      "secondary_second": {
+        "age": "14-18 años (13-17 con primina)",
+        "duration": "5 años",
+        "description": "Secundaria de Segundo Grado (Liceo / Técnico / Profesional)",
+        "diploma": "Diploma a los 18-19 años (17-18 con primina)"
+      }
+    },
+    "spain_card": {
+      "title": "ESPAÑA",
+      "age_range": "17-18 años",
+      "infant": {
+        "age": "3-5 años",
+        "duration": "3 años",
+        "description": "Infantil"
+      },
+      "primary": {
+        "age": "6-11 años",
+        "duration": "6 años",
+        "description": "Primaria"
+      },
+      "eso": {
+        "age": "12-15 años",
+        "duration": "4 años",
+        "description": "ESO"
+      },
+      "bachillerato": {
+        "age": "16-17 años",
+        "duration": "2 años",
+        "description": "Bachillerato",
+        "diploma": "Diploma a los 17-18 años"
+      }
+    },
+    "key_differences": {
+      "title": "Diferencias Clave",
+      "studies_duration": {
+        "title": "Duración de los estudios",
+        "description": "En España se termina a los 17-18 años, en Italia a los 18 (con primina a los 17)"
+      },
+      "primary_school": {
+        "title": "Educación Primaria",
+        "description": "6 años en España frente a 5 en Italia"
+      },
+      "after_middle_school": {
+        "title": "Después de la Secundaria",
+        "description": "En Italia se continúa con la secundaria superior, en España se elige entre Bachillerato o Formación Profesional"
+      },
+      "after_eso": {
+        "title": "Después de la ESO",
+        "description": "Los estudiantes españoles pueden elegir entre el Bachillerato (2 años) para la universidad o la Formación Profesional para entrar en el mundo laboral"
+      }
+    }
+  },
+  "school_life": {
+    "title": "Vida Escolar en España",
+    "dress_code": {
+      "title": "Código de Vestimenta Escolar",
+      "items": [
+        "Todos usan mochilas Vans, prácticamente obligatorias",
+        "La mayoría tiene estilo, es raro ver a gente descuidada",
+        "Difícil encontrar \"canis\" como en Italia",
+        "Muchos visten camisetas de fútbol, incluso las chicas",
+        "Ningún código de vestimenta impuesto, máxima libertad"
+      ]
+    },
+    "race_for_seats": {
+      "title": "La Carrera por los Primeros Puestos",
+      "description": "Los españoles siempre intentan sentarse en las primeras 3 filas, nunca al final."
+    },
+    "absences_lateness": {
+      "title": "Faltas y Retrasos",
+      "subtitle": "Cómo funciona la gestión de asistencias en España",
+      "lateness": {
+        "title": "Retrasos",
+        "items": [
+          "3 retrasos = 1 falta injustificada",
+          "Retraso > 20 min = Falta"
+        ]
+      },
+      "absences": {
+        "title": "Faltas",
+        "items": [
+          "Justificación en un plazo de 3 días",
+          "Máximo 15% de faltas por asignatura"
+        ]
+      }
+    },
+    "typical_day": {
+      "title": "Mi Día Típico en el Instituto",
+      "music": {
+        "title": "La banda sonora",
+        "description": "Entre clase y clase, 5 minutos de música a todo volumen por los altavoces. ¡A veces incluso ponen a Pinguini Tattici Nucleari!"
+      },
+      "classroom_33": {
+        "title": "Aula 33",
+        "description": "Durante las horas libres voy al aula 33. La llave se recoge en conserjería."
+      }
+    },
+    "id_card": {
+      "title": "La Tarjeta",
+      "subtitle": "Si tienes 16 años te dan esta tarjeta para salir durante el patio.",
+      "description": "Hay conserjes que controlan en la puerta. La muestras y puedes salir durante los recreos (y volver a entrar), o irte directamente a casa si has terminado las clases."
+    },
+    "computers_fp": {
+      "title": "Informática y FP",
+      "prsi": {
+        "title": "PRSI - Informática Básica",
+        "items": [
+          "Hacen cosas que nosotros hicimos en primero, pero era obligatoria y no me la podía quitar.",
+          "Ordenadores Windows con varios sistemas operativos disponibles"
+        ]
+      },
+      "fp_subjects": {
+        "title": "3 Asignaturas de Formación Profesional (FP)",
+        "items": [
+          "Todas similares a Sistemas y Redes y TeP",
+          "En dos de ellas, SIOM y SERED, estaban más avanzados que nosotros.",
+          "La tercera, RELO, hacían cosas que hicimos el año pasado"
+        ]
+      }
+    },
+    "structures_spaces": {
+      "title": "Estructuras y Espacios",
+      "structures": {
+        "title": "Estructuras",
+        "items": [
+          "5-6 ordenadores viejos en la entrada",
+          "Sillas repartidas por el instituto",
+          "Biblioteca equipada"
+        ]
+      },
+      "yard": {
+        "title": "Patio",
+        "items": [
+          "Balones disponibles en conserjería",
+          "Campo de fútbol siempre abierto",
+          "Espacios abiertos para socializar"
+        ]
+      },
+      "cafeteria": {
+        "title": "Cafetería",
+        "items": [
+          "Espacio para el descanso de mediodía",
+          "Asientos en el interior"
+        ]
+      }
+    }
+  },
+  "subjects_and_exams": {
+    "no_specialties": {
+      "title": "Sin Especialidades",
+      "description": "Asignaturas comunes para todos + \"Optativas\".",
+      "common_subjects_title": "Asignaturas Comunes",
+      "common_subjects": [
+        "Lengua Castellana",
+        "Inglés",
+        "Filosofía",
+        "Educación Física"
+      ],
+      "optional_subjects_title": "Asignaturas Optativas",
+      "optional_subjects": [
+        "Economía",
+        "Latín",
+        "Física y Química (prácticamente todo química)",
+        "Speaking de Inglés (solo para la ESO)",
+        "PRSI (La única que hago)"
+      ]
+    },
+    "grades_and_spelling": {
+      "title": "Notas & Ortografía",
+      "decimal_grades": "Notas decimales libres (ej. 9,7).",
+      "passing_grade": "El aprobado es 5/10.",
+      "penalty": "Te quitan 0,10 puntos por cada falta de ortografía."
+    },
+    "study_methods": {
+      "title": "Cómo se estudia aquí",
+      "math": "Básicamente tienes que saberte todo de memoria, ya no hay cálculos como en Italia.",
+      "chemistry": "Prepárate para estudiar mucha teoría de memoria, especialmente la nomenclatura.",
+      "note": "Básicamente, si en Italia te pedían que entendieras, aquí quieren que te lo sepas todo de memoria."
+    }
+  },
+  "teachers": {
+    "title": "Los Profesores",
+    "Matemáticas": {
+      "name": "Matemáticas",
+      "pros": ["Muy disponible"],
+      "cons": ["Explicaciones demasiado rápidas", "Corrige 4 ejercicios a la vez"]
+    },
+    "Inglés": {
+      "name": "Inglés",
+      "cons": [
+        "Muy tacaña con las notas",
+        "Odia mi letra",
+        "12+ exámenes divididos en Reading, Speaking, Grammar, Writing, Listening",
+        "Hace demasiados ejercicios de práctica"
+      ],
+      "note": "Solo hicimos Speaking una vez"
+    },
+    "Lengua Castellana": {
+      "name": "Lengua Castellana",
+      "description": "Empecé muy mal con la asignatura porque hacíamos exámenes con figuras retóricas y análisis de algunos verbos y palabras, además de resúmenes de textos y cosas varias. Luego entendí las figuras retóricas y me recuperé en el último momento."
+    }
+  },
+  "bathrooms": {
+    "title": "Cómo funcionan los baños",
+    "procedure_title": "Procedimiento para ir al baño:",
+    "first_building_title": "Primer Edificio",
+    "second_building_title": "Segundo Edificio",
+    "procedure": [
+      "Pide permiso al profesor",
+      "Ve a conserjería",
+      "Firma el registro",
+      "Recoge la llave",
+      "Devuelve la llave"
+    ],
+    "first_building": [
+      "Baños solo en la planta baja",
+      "Baños de chicos y chicas uno al lado del otro",
+      "Fuera del patio están cerrados",
+      "Controles anti-tabaco (sin límite de tiempo)",
+      "¡Lleva tu propio papel higiénico!"
+    ],
+    "second_building": [
+      "Baños en casi todas las plantas",
+      "Acceso más sencillo"
+    ]
+  },
+  "tutoring_and_representatives": {
+    "title": "La Tutoría y los Representantes",
+    "tutoring_title": "Tutoría",
+    "notebooks_title": "Cuadernos & Agenda",
+    "tutoring": [
+      "Una hora semanal dedicada al bienestar de la clase",
+      "Actividades en grupo y momentos de debate",
+      "Espacio para discutir problemas y encontrar soluciones juntos"
+    ],
+    "notebooks_and_agenda": [
+      "0,5 puntos extra por el orden del cuaderno (único, dividido por asignaturas)",
+      "Agenda oficial de pago (20€/año)",
+      "Registro electrónico solo para las ausencias"
+    ]
+  },
+  "physical_activities_and_trips": {
+    "title": "Actividades y Viajes",
+    "physical_education": {
+      "title": "Educación Física",
+      "Ringo_Ball": "Como el fútbol, pero también se pueden usar las manos.",
+      "volleyball_title": "Examen de Voleibol",
+      "volleyball_intro": "Nos dividimos en equipos y cada componente, cuando no juega, debe evaluar a un oponente en:",
+      "Volleyball_exam": [
+        "Conocimiento de las reglas",
+        "Armonía y colaboración en equipo",
+        "Atención al juego",
+        "Técnica y respuesta al balón"
+      ],
+      "running_title": "Examen de Carrera",
+      "Running_exam": "Duración progresiva: comienza con 5 minutos en el primer año de ESO y aumenta 5 minutos cada año, hasta 35 minutos en 2° de Bachillerato."
+    },
+    "excursions_and_trips": {
+      "title": "Excursiones & Viajes",
+      "class_excursions_title": "Excursiones de Clase",
+      "class_excursions": "Son cosas muy aburridas como cazar moscas en una montaña para luego observarlas mejor en el laboratorio de biología.",
+      "erasmus_title": "Programa Erasmus+",
+      "erasmus_plus": ["1 semana", "2 meses y medio", "1 año completo"],
+      "study_trips_title": "Viajes de Estudio",
+      "study_trips": "Los profesores proponen varios viajes durante el año. Los estudiantes interesados pueden presentar su candidatura y participar pagando la cuota establecida."
+    }
   }
-}
+  }
 

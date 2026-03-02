@@ -3,7 +3,7 @@
         faSun, faBolt, faUtensils, faShoppingCart, faCar, faHome, faTshirt, faMapMarkerAlt, faUmbrellaBeach
     } from '@fortawesome/free-solid-svg-icons';
     import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
-    import { t } from '$lib/i18n';
+    import { t } from 'svelte-i18n';
 
     let dintorni = {
         valencia: {

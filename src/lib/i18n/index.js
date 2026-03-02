@@ -1,22 +1,17 @@
-import { init, register, getLocaleFromNavigator, locale, t } from 'svelte-i18n';
-import { writable } from 'svelte/store';
-import { browser } from '$app/environment';
+import { addMessages, init, locale } from 'svelte-i18n';
 
-// Registra le lingue disponibili
-register('en', () => import('./en.json'));
-register('es', () => import('./es.json'));
-register('it', () => import('./it.json'));
+import en from './en.json';
+import es from './es.json';
+import it from './it.json';
 
-// Imposta la lingua predefinita
-let currentLocale = writable('es');
-
-// Inizializza l'i18n con la lingua del browser o fallback
-const initialLocale = browser ? getLocaleFromNavigator() : 'es';
+addMessages('en', en);
+addMessages('es', es);
+addMessages('it', it);
 
 init({
-    fallbackLocale: 'es',
-    initialLocale: initialLocale
+  fallbackLocale: 'es',
+  initialLocale: 'es',
+  warnOnMissingMessages: false
 });
 
-// Esporta il locale corrente e la funzione di traduzione
-export { currentLocale, t, locale };
+export { locale };
